@@ -1,0 +1,130 @@
+.custom-background {
+  background-color: #f6f6f6;
+}
+
+.custom-rounded {
+  border-radius: 8px;
+}
+
+.custom-shadow {
+  box-shadow: 0px 1px 3px 0px #a6afc366;
+}
+
+.custom-gray-strong-color {
+  color: #666666;
+  font-weight: 600;
+}
+
+.custom-gray-neutral-color {
+  color: #5e636e;
+  font-weight: 400;
+}
+
+.custom-margin-bottom-logo {
+  margin-bottom: 2.5rem;
+}
+
+.custom-padding-vertical-forms {
+  padding: 2rem 0 2rem 0;
+}
+
+.custom-input-forms {
+  border-radius: 6px;
+  border: 1px solid #808080;
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.custom-input-forms::placeholder {
+  color: #808080;
+  opacity: 1;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.custom-eye-icon {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  cursor: pointer;
+  color: #808080;
+}
+
+.custom-links-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #005b85;
+}
+
+.custom-pattern-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4d4d4d;
+}
+
+.custom-submit-input {
+  background-color: #005b85;
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #808080;
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.custom-submit-input:hover {
+  background-color: #006f8d;
+  transition: 0.3s;
+}
+
+.custom-logo-social-facebook {
+  width: 50px;
+  height: 50px;
+}
+
+.custom-social {
+  transition: 0.3s ease, transform 0.3s ease;
+}
+
+.custom-social:hover {
+  transform: scale(1.1);
+}
+
+.custom-inputs {
+  display: flex;
+  gap: 1rem;
+}
+
+.custom-divisor {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.login-container {
+  display: flex;
+  min-height: 100%;
+}
+
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-section {
+  flex: 1;
+  background-image: url('../assets/background-login-screen.png');
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .image-section {
+    display: block;
+  }
+}
