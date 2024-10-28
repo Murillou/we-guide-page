@@ -3,7 +3,7 @@ import './LandingPage.css';
 export function LandingPage() {
   return (
     <div>
-      <section className="custom-background-landing-page">
+      <section className="custom-background-landing-page d-flex flex-column justify-content-center">
         <div className="custom-box">
           <h5 className="custom-title-box">
             Conecte-se com a We Guide e viva novas experiências!
@@ -19,7 +19,11 @@ export function LandingPage() {
           </button>
         </div>
 
-        <div></div>
+        <div className="d-flex justify-content-end">
+          <div className="custom-locality text-center d-flex ">
+            Rio de Janeiro - RJ
+          </div>
+        </div>
       </section>
     </div>
   );

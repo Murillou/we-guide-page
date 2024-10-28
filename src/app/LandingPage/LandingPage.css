@@ -1,6 +1,4 @@
 .custom-background-landing-page {
-  display: flex;
-  align-items: center;
   background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 0) 0%,
@@ -14,13 +12,15 @@
   background-repeat: no-repeat;
   height: 100vh;
   padding: 1rem;
+  display: flex;
+  gap: 6rem;
 }
 
 .custom-box {
   background: #ffffffcc;
   padding: 1.5rem;
   border-radius: 8px;
-  width: 22rem;
+  max-width: 22rem;
 }
 
 .custom-title-box {
@@ -47,4 +47,20 @@
   min-width: 10rem;
   box-sizing: border-box;
   box-shadow: 0px 10px 15px 0px #050d1d2e;
+}
+
+.custom-locality {
+  background: #000000;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+  width: 100%;
+  max-width: 16rem;
+}
+
+@media (min-width: 1440px) {
+  .custom-background-landing-page {
+    padding: 1rem 10.5rem;
+  }
 }
