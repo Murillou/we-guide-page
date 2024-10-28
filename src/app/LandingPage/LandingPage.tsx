@@ -4,14 +4,19 @@ export function LandingPage() {
   return (
     <div>
       <section className="custom-background-landing-page">
-        <div>
-          <h5>Conecte-se com a We Guide e viva novas experiências!</h5>
-          <p>
+        <div className="custom-box">
+          <h5 className="custom-title-box">
+            Conecte-se com a We Guide e viva novas experiências!
+          </h5>
+
+          <p className="custom-description-box">
             Com um guia de turismo, sua viagem se transforma em uma jornada de
             descoberta e experiências únicas.
           </p>
 
-          <button>Conheça nossos guias</button>
+          <button className="custom-button-box custom-description-box">
+            Conheça nossos guias
+          </button>
         </div>
 
         <div></div>

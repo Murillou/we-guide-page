@@ -1,4 +1,6 @@
 .custom-background-landing-page {
+  display: flex;
+  align-items: center;
   background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 0) 0%,
@@ -11,4 +13,38 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  padding: 1rem;
+}
+
+.custom-box {
+  background: #ffffffcc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 22rem;
+}
+
+.custom-title-box {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #00002e;
+}
+
+.custom-description-box {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00002e;
+}
+
+.custom-button-box {
+  background: #85e200;
+  border: 0px;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  max-width: 19rem;
+  min-width: 10rem;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 15px 0px #050d1d2e;
 }
