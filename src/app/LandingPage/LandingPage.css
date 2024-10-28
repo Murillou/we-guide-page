@@ -1,0 +1,14 @@
+.custom-background-landing-page {
+  background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(144, 144, 144, 0.25) 16.55%,
+      rgba(73, 68, 68, 0.5) 45.33%,
+      rgba(33, 31, 31, 0.7) 66.38%,
+      rgba(0, 0, 0, 0.85) 95.86%
+    ),
+    url(../assets/background-landing-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

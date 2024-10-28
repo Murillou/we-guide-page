@@ -1,5 +1,9 @@
-import { Login } from './Login/Login';
+import { LandingPage } from './LandingPage/LandingPage';
 
 export default function Home() {
-  return <Login />;
+  return (
+    <>
+      <LandingPage />
+    </>
+  );
 }
