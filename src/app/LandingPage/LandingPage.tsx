@@ -1,4 +1,6 @@
 import './LandingPage.css';
+import Image from 'next/image';
+import guideAna from '../assets/ana-luiza.png';
 
 export function LandingPage() {
   return (
@@ -22,6 +24,36 @@ export function LandingPage() {
         <div className="d-flex justify-content-end">
           <div className="custom-locality text-center d-flex ">
             Rio de Janeiro - RJ
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h1>
+            Procurando um tour personalizado? Encontre o guia perfeito para sua
+            próxima aventura!
+          </h1>
+        </div>
+        <div>
+          <input type="search" />
+          <input type="submit" />
+        </div>
+
+        <div className="card">
+          <Image
+            src={guideAna}
+            width={297}
+            height={270}
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <h5 className="card-title">Ana Luiza</h5>
+            <h6 className="card-text"> João Pessoa - PB</h6>
+            <a href="#" className="btn btn-primary">
+              Visualizar perfil
+            </a>
           </div>
         </div>
       </section>
