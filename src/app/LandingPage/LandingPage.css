@@ -59,6 +59,30 @@
   max-width: 16rem;
 }
 
+.custom-container-carousel {
+  background-color: #f6f6f6;
+}
+
+.custom-title-container-carousel {
+  color: #003f5c;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.custom-div-inputs-container-carousel {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.custom-input-search-container-carousel {
+  width: 100%;
+  max-width: 48.5rem;
+}
+
+.custom-button-search-container-carousel {
+  background: #85e200;
+}
+
 @media (min-width: 1440px) {
   .custom-background-landing-page {
     padding: 1rem 10.5rem;

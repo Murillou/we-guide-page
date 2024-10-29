@@ -28,29 +28,64 @@ export function LandingPage() {
         </div>
       </section>
 
-      <section>
+      <section className="d-flex flex-column align-items-center  custom-container-carousel p-1 pt-5 ">
         <div>
-          <h1>
-            Procurando um tour personalizado? Encontre o guia perfeito para sua
-            próxima aventura!
+          <h1 className="custom-title-container-carousel font-weight-bold text-center">
+            <span className="d-block">Procurando um tour personalizado?</span>
+            <span className="d-block">
+              Encontre o guia perfeito para sua próxima aventura!
+            </span>
           </h1>
         </div>
-        <div>
-          <input type="search" />
-          <input type="submit" />
+
+        <div className="d-flex flex-row w-100 justify-content-center gap-2">
+          <input
+            type="search"
+            placeholder="Pesquisar"
+            className="custom-input-search-container-carousel"
+          />
+          <input
+            type="submit"
+            value="Pesquisar"
+            className="custom-button-search-container-carousel border border-1 rounded p-1 px-3"
+          />
         </div>
 
         <div className="card">
-          <Image
-            src={guideAna}
-            width={297}
-            height={270}
-            className="card-img-top"
-            alt="..."
-          />
+          <Image src={guideAna} width={297} height={270} alt="..." />
           <div className="card-body">
             <h5 className="card-title">Ana Luiza</h5>
             <h6 className="card-text"> João Pessoa - PB</h6>
+            <p>Condutor certificado</p>
+            <div>
+              <span>Português, Alemão</span>
+            </div>
+            <a href="#" className="btn btn-primary">
+              Visualizar perfil
+            </a>
+          </div>
+
+          <Image src={guideAna} width={297} height={270} alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Ana Luiza</h5>
+            <h6 className="card-text"> João Pessoa - PB</h6>
+            <p>Condutor certificado</p>
+            <div>
+              <span>Português, Alemão</span>
+            </div>
+            <a href="#" className="btn btn-primary">
+              Visualizar perfil
+            </a>
+          </div>
+
+          <Image src={guideAna} width={297} height={270} alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Ana Luiza</h5>
+            <h6 className="card-text"> João Pessoa - PB</h6>
+            <p>Condutor certificado</p>
+            <div>
+              <span>Português, Alemão</span>
+            </div>
             <a href="#" className="btn btn-primary">
               Visualizar perfil
             </a>
